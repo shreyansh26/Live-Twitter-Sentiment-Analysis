@@ -1,7 +1,7 @@
 Live Twitter Sentiment Analysis
 ===============================
 
-I created a module called **sentiment_mod** using NLTK. The classifier used is a custom classifier bsed on voting involving various algorithms including - 
+I created a module called **sentiment_mod** using NLTK. The classifier used for sentiment analysis is a custom classifier based on voting involving various algorithms including - 
 
 * Original Naive Bayes Classifier of NLTK
 * Multinomial Naive Bayes
