@@ -35,4 +35,4 @@ auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 
 twitterStream = Stream(auth, listener())
-twitterStream.filter(track=["fun"])
+twitterStream.filter(track=["fun"])  # Search for tweets having keyword "fun"
